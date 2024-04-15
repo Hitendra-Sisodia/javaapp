@@ -19,7 +19,6 @@ import com.entity.TodoDtls;
 public class UpdateServlet extends HttpServlet {
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("hi");
 		int id = Integer.parseInt(req.getParameter("id"));
 		String username = req.getParameter("username");
 		String todo = req.getParameter("todo");
